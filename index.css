@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(234, 227, 192); 
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(234, 227, 192); 
+    /* width: 25%; */
+   height: 100vh;
+   
+} 
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aquamarine; */
+    border-bottom: 1px solid #C9C9C9;
+    width: 100%;
+}
+
+li
+{
+padding-right: 20px;
+border-right: 1px solid #C9C9C9;
+}
+
+.accordion,.accordion-item,.accordion-button {
+    width: 102%;
+    background-color: rgb(234, 227, 192);
+
+}
