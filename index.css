@@ -10,8 +10,7 @@ body {
     background-color: rgb(234, 227, 192); 
     /* width: 25%; */
    height: 100vh;
-   
-} 
+   } 
 
 .logo {
     display: flex;
@@ -31,5 +30,19 @@ border-right: 1px solid #C9C9C9;
 .accordion,.accordion-item,.accordion-button {
     width: 102%;
     background-color: rgb(234, 227, 192);
+}
 
+.bg-warning {
+    background-color: beige !important;
+}
+
+#btn-share {
+    float: right;
+    margin-right: 10px;
+    background-color: rgba(55, 105, 243, 0.678);
+    border-radius: 10px;
+}
+
+#btn-share:hover {
+    background-color: rgb(0, 88, 252);
 }
