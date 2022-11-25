@@ -32,6 +32,14 @@ border-right: 1px solid #C9C9C9;
     background-color: rgb(234, 227, 192);
 }
 
+.accordion-button:not(.collapsed) {
+    color: #664d03;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: #664d03;
+}
+
 .bg-warning {
     background-color: beige !important;
 }
@@ -46,3 +54,41 @@ border-right: 1px solid #C9C9C9;
 #btn-share:hover {
     background-color: rgb(0, 88, 252);
 }
+
+.HunanSause {
+    
+    padding: 2% 20% 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.table {
+    padding-top: 5%;
+    width: 600px;
+   height: 200px;
+   align-items: center;
+}
+
+
+
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+   /* bottom: 0; */
+   background: rgba(42, 41, 42, 0.5);
+   width: 490px;
+   transition: .5s ease;
+   opacity:0;
+   color: rgb(223, 223, 216);
+   font-size: 20px;
+   font-weight:lighter;
+   padding: 2px;
+   text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
+  }
