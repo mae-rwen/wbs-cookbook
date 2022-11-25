@@ -92,3 +92,23 @@ border-right: 1px solid #C9C9C9;
   .container:hover .overlay {
     opacity: 1;
   }
+
+  .firsttosee {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  #cookbook {
+    height: 350px;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+  }
+
+  #saffron {
+   color: #664d03;
+   text-decoration: none;
+  }
